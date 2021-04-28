@@ -7,3 +7,5 @@ var sacha = {
 var otraPersona = {
   nombre: 'Sacha'
 }
+
+//os objetos ocupan diferentes espacios o posiciones en memoria ram. la unica forma de comparar objetos y que sea true es que se asignen a otro objeto

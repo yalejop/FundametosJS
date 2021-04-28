@@ -44,6 +44,14 @@ var sacha = {
   // })
   
   // persona.altura = persona.altura * 100
+
+  // const pasarAlturaACms = persona => {
+  //   //persona.altura = persona.altura * 100
+  //   return {
+  //     ...persona,
+  //     altura: persona.altura * 100
+  //   }
+  // }
   const pasarAlturaACms = persona => ({
     ...persona,
     altura: persona.altura * 100

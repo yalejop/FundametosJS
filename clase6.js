@@ -19,6 +19,8 @@ var dario = {
     console.log(persona.nombre.toUpperCase())
 } */
 
+//Se pueden pasar objetos dentro de los parametros en las funciones (nuevas funcionalidades de JS)
+
 function imprimirNombreEnMayusculas({nombre}) {
     console.log(nombre.toUpperCase())
 }
